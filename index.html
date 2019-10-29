@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Project tracking</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+        <link href="main.css" rel="stylesheet" type="text/css">
+        <!--Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap" rel="stylesheet">
+        <!--Icon-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="box"></div>
+        <div class="wrapper">
+            <div class="headerLeft">
+                <img src="Images/logo.svg" alt="logo" class="logo header">
+            </div>
+            <div class="headerRight">
+                <ul class="menu" id="menu">
+                        <li>Product</li>
+                        <li>Features</li>
+                        <li>Pricing</li>
+                        <li>Login</li>
+                </ul>
+                <li>
+                    <i onclick="menu()" id="icon" class="material-icons icon">format_align_justify</i>
+                </li>
+            </div>
+            <div>
+
+                <div class="ctaText ">
+                    <h3><span>New</span> Monograph Dashboard</h3>
+                    <h1>Powerful insights<br/>into your team</h1>
+                    <h2>Project planning and time tracking for agile teams</h2>
+                </div>
+
+                <div class="ctaBtn">
+                    <button>Schedule a demo</button>
+                    <h4>to see a live preview</h4>
+                </div>
+            </div>
+
+            <div>
+                <img src="Images/illustration-devices.svg" alt="Computer Screens" class="caseImage">
+            </div>
+        </div>
+
+        <script>
+            function menu(){
+                if (document.getElementById("menu").className=="menu"){
+                    document.getElementById("menu").className="menuOpen";
+                    document.getElementById("icon").innerHTML="close";
+                } 
+                else {
+                    document.getElementById("menu").className="menu"
+                    document.getElementById("icon").innerHTML="format_align_justify";
+                }
+            }
+        
+        </script>
+    </body>
+</html>
