@@ -1,2 +1,2 @@
-# projectTracking
-A front end development challenge with responsive menu
+# Project Tracking
+This project was a development challenge from Frontend Mentor. They gave me the style guide, the design and I had to create the website from there. I used HTML and CSS for the bulk of this project. The responsive menu with animated open and close buttons was created using JavaScript and I used Google’s Material Design icons. Check out the finished site at https://devaidanh.github.io/projectTracking/index
